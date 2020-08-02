@@ -13,8 +13,6 @@ const refs = {
   stopBtn: document.querySelector('button[data-action="stop"]'),
 };
 
-console.log(refs.startBtn);
-
 const randomInterval = {
   isActive: false,
   start() {
